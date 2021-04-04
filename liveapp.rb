@@ -2,7 +2,7 @@ class Liveapp < Formula
   desc "a CLI for creating live app data and live app bundles. Primarily used to integrate into Xcode. More information at https://docs.liveapp.cc"
   homepage "https://docs.liveapp.cc"
   url "https://github.com/App-Maker-Software/liveapp/releases/download/0.1/liveapp-0.1.tar.gz"
-  sha256 "319233d258d79400efcf149953279737b667582bdc19aa2bc3ca89fd2172467b"
+  sha256 "2985dfe98a16ac956eb65192f19ab44a1f97683e3ee9e82f16a8cef7d28e9958"
 
   bottle :unneeded
 
