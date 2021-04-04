@@ -8,7 +8,6 @@ class Liveapp < Formula
 
   def install
     bin.install "liveapp"
-    bin.install "lib_InternalSwiftSyntaxParser.dylib"
   end
 
   test do
