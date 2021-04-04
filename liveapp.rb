@@ -1,4 +1,4 @@
-class LiveApp < Formula
+class Liveapp < Formula
   desc "a CLI for creating live app data and live app bundles. Primarily used to integrate into Xcode. More information at https://docs.liveapp.cc"
   homepage "https://docs.liveapp.cc"
   url "https://github.com/App-Maker-Software/liveapp/releases/download/0.1/liveapp-0.1.tar.gz"
