@@ -2,7 +2,7 @@ class SwiftAst < Formula
   desc "a CLI for creating binary Swift AST data"
   homepage "https://github.com/App-Maker-Software/SwiftASTCLI"
   url "https://github.com/App-Maker-Software/SwiftASTCLI/releases/download/0.50500.0/swift-ast-5.5.tar.gz"
-  sha256 "917fa4f2e07b494318cbb2c8ec7e1cf26ff785767c4ecead8df509f1e1dc7505"
+  sha256 "6dc2ff92369439d620138a80546d11679c4b819bed363b8c23897de5f768887a"
 
   bottle :unneeded
 
