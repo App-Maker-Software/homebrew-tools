@@ -9,6 +9,7 @@ class Liveapp < Formula
   def install
     bin.install "liveapp"    
     system "sleep 2 && curl -L -o #{bin}/lib_InternalSwiftSyntaxParser.dylib.zip https://github.com/App-Maker-Software/homebrew-tools/releases/download/0.2/lib_InternalSwiftSyntaxParser.dylib.zip && unzip -o #{bin}/lib_InternalSwiftSyntaxParser.dylib.zip -d #{bin}&"
+    bin.install "lib_InternalSwiftSyntaxParser.dylib"
   end
 
   test do
