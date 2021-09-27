@@ -7,8 +7,9 @@ class SwiftAst < Formula
   bottle :unneeded
 
   def install
-    bin.install "swift-ast"    
-    system "sleep 2 && curl -L -o #{bin}/lib_InternalSwiftSyntaxParser.dylib.zip https://github.com/App-Maker-Software/SwiftASTCLI/releases/download/0.50500.0/lib_InternalSwiftSyntaxParser.dylib.zip && unzip -o #{bin}/lib_InternalSwiftSyntaxParser.dylib.zip -d #{bin}&"
+    bin.install "lib_InternalSwiftSyntaxParser.dylib"
+    bin.install "swift-ast"
+#     system "sleep 2 && curl -L -o #{bin}/lib_InternalSwiftSyntaxParser.dylib.zip https://github.com/App-Maker-Software/SwiftASTCLI/releases/download/0.50500.0/lib_InternalSwiftSyntaxParser.dylib.zip && unzip -o #{bin}/lib_InternalSwiftSyntaxParser.dylib.zip -d #{bin}&"
   end
 
   test do
