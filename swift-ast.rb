@@ -1,4 +1,4 @@
-class SwiftAST < Formula
+class SwiftAst < Formula
   desc "a CLI for creating binary Swift AST data"
   homepage "https://github.com/App-Maker-Software/SwiftASTCLI"
   url "https://github.com/App-Maker-Software/SwiftASTCLI/releases/download/0.50500.0/swift-ast-5.5.tar.gz"
